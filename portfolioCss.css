@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+
+
+body{   
+background: url(../Portfolio/didi.jpeg) no-repeat;
+/*background-color: rgb(8, 7, 7);*/
+ background-size: cover;
+min-height: 100vh;
+
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: rgb(71, 68, 68);
+    
+    box-shadow: 0 5px, 10px  rgba(234, 231, 231, 0.1);
+    padding: 22px 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    transition: all .30s ease;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 1px;
+}
+
+.navbar-items{
+    display: flex;
+}
+.navbar-items a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin: 5px px;
+    border-radius: 0.5rem;
+    transition: all .30s ease;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navbar-items a:hover {
+    background:#1fb7b7 ;
+    color: white;
+}
+
+section {
+    padding: 280px 16% 90px;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    
+}
+
+header .navbar ul li a:hover{
+    background-color: #333;
+    color: #fff;
+
+}
+
+
+.names{
+
+    position: absolute;
+width: 640px;
+height: 235px;
+left: 100px;
+top: 232px;
+color: #fff;
+}
+
+input[type="submit"]{
+    width: 100px;
+    border-radius: 12px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(41, 165, 163);
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+
+.about-all{
+    position: absolute;
+    display: flex;
+width: 800px;
+height: 350px;
+left: 100px;
+top: 450px;
+}
+
+.image{
+display: flex;
+flex-direction: column;
+float: left;
+margin-left: 130px;
+padding: 0px;
+
+
+position: absolute;
+width: 200px;
+height: 400px;
+
+}
+
+.about-content{
+    float: right;
+    width: 100%;
+    color: #fff;
+    margin-left: 400px;
+    height: 200px;
+    top: 350px;
+}
+
+.services-box{
+    position: absolute;
+width: 308px;
+height: 300px;
+left: 600px;
+top: 115%;
+color: #fff;
+
+
+}
+
+.heartImage{
+margin-top: 4%;
+margin-right: -35%;
+}
+.web-one{
+margin-top:-4% ;
+color: rgb(40, 176, 176);
+
+}
+.web-two{
+    margin-top: 8%;
+    margin-left: -40%;
+    width: 200px;
+}
+
+.services{
+  width: 80%;
+  height: 300px;
+ margin-left: 350px;
+  color: aliceblue;
+  align-items: center;
+  margin-top:250px;
+
+}
+
+.service-one{
+
+    display: flex;
+    
+    width: 800px;
+    justify-content: space-between;
+    height: 30%;  
+  
+    
+}
+
+.service-two{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.portfolio{
+    position: absolute;
+width: 308px;
+height: 351px;
+left: 600px;
+top: 205%;
+color: #fff;
+
+}
+
+.portfolioImages{
+    margin: 12px;
+   height: 100px;
+   margin-left: 300px;
+margin-top: 380px;
+}
+
+.testimonial{
+    position: absolute;
+width: 308px;
+height: 300px;
+left: 600px;
+top: 325%;
+color: #fff;
+}
+
+.testimonial-one{
+    margin: 350px;
+    margin-top: 45%;
+    width: 300px;
+    color: aliceblue;
+    
+}
+
+.testimonial-two{
+    margin: 1000px;
+    margin-top: -38%;
+    width: 300px;
+    color: aliceblue;
+    margin-left: 800px;
+   
+}
