@@ -46,16 +46,16 @@ header nav .left a:hover{
     }
 header nav {
     padding: 2rem 0;
-    font-size:2em;
+    font-size:1.5em;
     }
  header nav .logo{
     margin-right: 8rem;
     }
-body{
+    body{
         font-family: 'Poppins', sans-serif;
         background-color: black;
-    
-        }
+    }
+        
 .container{
         max-width: 1152px;
         padding: 0 15px;
